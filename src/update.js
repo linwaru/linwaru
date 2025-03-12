@@ -7,7 +7,7 @@ const fs = require('fs');
     const date = new Date();
 
     const readmeContent = fs.readFileSync(ReadMe, 'utf-8');
-    const regex = /Last updated on (\d{1,2})(st|nd|rd|th)? (\w+) (\d{4})/;
+    const regex = /Last updated on (\d{1,2})(st|nd|rd|th)? (\w+) (\d{4}) at (\d{1,2}):(\d{2})(?::(\d{2}))?/;
     const match = readmeContent.match(regex);
 
     if (match && match[1] == date.getDate() && match[3] == ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]) {
@@ -53,7 +53,7 @@ const Linwaru = {
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=linwaru&theme=tokyonight">
 </details>
 <!-- Last updated on ${date.toString()} -->
-<i>Last updated on ${date.getDate()}${date.getDate()===1?"st":date.getDate()===2?"nd":date.getDate()===3?"rd":"th"} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]} ${date.getFullYear()} using magic</i> ✨`;
+<i>Last updated on ${date.getDate()}${date.getDate()===1?"st":date.getDate()===2?"nd":date.getDate()===3?"rd":"th"} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]} ${date.getFullYear()} at ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}:${date.getSeconds().toString().padStart(2, '0')} using magic</i> ✨`;
 
     if (readmeContent !== text) {
         console.log('Updating README.md...');
