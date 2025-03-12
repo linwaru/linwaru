@@ -3,14 +3,14 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 
 (async () => {
-    //Get ReadMe path
-    const ReadMe = path.join(__dirname, '..', 'README.md')
-    const date = new Date()
+    // Get ReadMe path
+    const ReadMe = path.join(__dirname, '..', 'README.md');
+    const date = new Date();
 
-    //Fetching Info From Github API
-    let UserData = await fetch('https://api.github.com/users/linwaru').then(res => res.json())
+    // Fetching Info From Github API
+    let UserData = await fetch('https://api.github.com/users/linwaru').then(res => res.json());
 
-    //Creating the text what we gonna save on ReadMe file
+    // Creating the text to save in the ReadMe file
     const text = `<!-- You found this secret 👏 -->
 <!--
     My secret things lol
@@ -46,9 +46,8 @@ const Linwaru = {
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=linwaru&theme=tokyonight"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=linwaru&theme=tokyonight&hide=batchfile">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=linwaru&theme=tokyonight">
 </details>
-<!-- Last updated on ${date.toString()} -->
-<i>Last updated on ${date.getDate()}${date.getDate()===1?"st":date.getDate()===2?"nd":date.getDate()===3?"rd":"th"} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]} ${date.getFullYear()} using magic</i> ✨`
+<i>Last updated on ${date.toLocaleDateString()}</i> ✨`;
 
-    //Saving on readme.md
-    fs.writeFileSync(ReadMe, text)
-})()
+    // Saving the new text in the readme.md
+    fs.writeFileSync(ReadMe, text);
+})();
