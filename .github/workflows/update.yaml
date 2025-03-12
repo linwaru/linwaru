@@ -13,18 +13,21 @@ jobs:
 
     steps:
       - name: 🎏 Fetch repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          persist-credentials: false
       - name: ✨ Create ReadMe.md
         run: |
           cd ${GITHUB_WORKSPACE}/
           npm i
           node src/update.js
       - name: 🚀 Deploy
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git remote set-url origin https://$PAT_TOKEN@github.com/${{ github.repository }}.git
           git add .
           git commit -am "[Automatic] Updated ReadMe.md"
-          git push --all -f https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin main
