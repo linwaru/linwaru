@@ -6,11 +6,14 @@ const fs = require('fs');
     const ReadMe = path.join(__dirname, '..', 'README.md');
     const date = new Date();
 
+    const brasiliaOffset = -3 * 60;
+    const localDate = new Date(date.getTime() + brasiliaOffset * 60 * 1000);
+
     const readmeContent = fs.readFileSync(ReadMe, 'utf-8');
     const regex = /Last updated on (\d{1,2})(st|nd|rd|th)? (\w+) (\d{4}) at (\d{1,2}):(\d{2})(?::(\d{2}))?/;
     const match = readmeContent.match(regex);
 
-    if (match && match[1] == date.getDate() && match[3] == ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]) {
+    if (match && match[1] == localDate.getDate() && match[3] == ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][localDate.getMonth()]) {
         console.log('README.md is already up to date!');
         return;
     }
@@ -52,8 +55,8 @@ const Linwaru = {
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=linwaru&theme=tokyonight"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=linwaru&theme=tokyonight&hide=batchfile">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=linwaru&theme=tokyonight">
 </details>
-<!-- Last updated on ${date.toString()} -->
-<i>Last updated on ${date.getDate()}${date.getDate()===1?"st":date.getDate()===2?"nd":date.getDate()===3?"rd":"th"} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()]} ${date.getFullYear()} at ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}:${date.getSeconds().toString().padStart(2, '0')} using magic</i> ✨`;
+<!-- Last updated on ${localDate.toString()} -->
+<i>Last updated on ${localDate.getDate()}${localDate.getDate() === 1 ? "st" : localDate.getDate() === 2 ? "nd" : localDate.getDate() === 3 ? "rd" : "th"} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][localDate.getMonth()]} ${localDate.getFullYear()} at ${localDate.getHours()}:${localDate.getMinutes().toString().padStart(2, '0')}:${localDate.getSeconds().toString().padStart(2, '0')} using magic</i> ✨`;
 
     if (readmeContent !== text) {
         console.log('Updating README.md...');
