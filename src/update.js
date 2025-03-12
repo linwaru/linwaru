@@ -38,7 +38,7 @@ const fs = require('fs');
 const Linwaru = {
     description: "I am a developer of web projects and programming applications using Js, Ts, Rust and Axulogic, Inc. Founder",
     favouriteLanguage: "Javascript/Typescript/Rust",
-    favouriteThings: ["Anime", "Games", "Music", "Programming"],
+    favouriteThings: ["Animes", "Games", "Music", "Programming"],
 }; //I'm a simple person who likes to program and play games
 \`\`\`
 <h2 align="left">Language and Tools:</h2>
