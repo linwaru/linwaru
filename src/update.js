@@ -23,7 +23,7 @@ const fs = require('fs');
     
 <h1 align="center">Who Am I?</h1>
     
-## Hi, I'm Lin <img src="https://raw.githubusercontent.com/linwaru/linwaru/master/images/WaveIcon.gif" width="30px">
+## Hi, I'm Lin <img src="https://raw.githubusercontent.com/linwaru/linwaru/main/images/WaveIcon.gif" width="30px">
 
 \`\`\`js
 const Linwaru = {

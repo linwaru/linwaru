@@ -3,7 +3,7 @@ name: update
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 5 * * *'
 
@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: 🎏 Fetch repo
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
           fetch-depth: 1
       - name: ✨ Create ReadMe.md
