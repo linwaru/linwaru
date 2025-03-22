@@ -26,12 +26,12 @@ const Linwaru = {
 <div align="center"><img src="https://github-profile-trophy.vercel.app/?username=linwaru&theme=dracula"></div>
 
 ## Even More Stats
-![Profile Views](https://komarev.com/ghpvc/?username=linwaru&color=blueviolet)&nbsp;&nbsp;![Profile Followers](https://img.shields.io/badge/Followers-undefined-blueviolet)&nbsp;&nbsp;![Profile Following](https://img.shields.io/badge/Following-undefined-blueviolet)
+![Profile Views](https://komarev.com/ghpvc/?username=linwaru&color=blueviolet)&nbsp;&nbsp;![Profile Followers](https://img.shields.io/badge/Followers-2-blueviolet)&nbsp;&nbsp;![Profile Following](https://img.shields.io/badge/Following-0-blueviolet)
     
 <details>
     <summary><b>GitHub</b> Activity</summary>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=linwaru&theme=tokyonight"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=linwaru&theme=tokyonight&hide=batchfile">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=linwaru&theme=tokyonight">
 </details>
-<!-- Last updated on Sat Mar 22 2025 20:48:23 GMT+0000 (Coordinated Universal Time) -->
-<i>Last updated on 22th March 2025 at 20:48:23 using magic</i> ✨
+<!-- Last updated on Sat Mar 22 2025 20:48:31 GMT+0000 (Coordinated Universal Time) -->
+<i>Last updated on 22th March 2025 at 20:48:31 using magic</i> ✨
