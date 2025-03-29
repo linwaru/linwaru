@@ -2,7 +2,7 @@
 <!--
     My secret things lol
     
-    - I code more hours 
+    - I code more hours
     - I am a gamer too 
     - I play Minecraft, Grand Fantasia, Strinova, Transformice and much more
     - This readme.md is created using GitHub Codespaces 👀
