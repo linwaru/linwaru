@@ -1,85 +1,86 @@
-<div align="center">
+<p align="center">
+  <img src="https://i.ibb.co/0RTJLkzd/cropped-20250824-0849-image-cropped.png" width="200" alt="Mascot" style="border-radius:50%;">
+</p>
 
-## **Managing Innovation Across Domains**
+<h1 align="center">linwaru</h1>
 
-[![Axulogic](https://img.shields.io/badge/Axulogic-Open%20Source%20Organizations-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Axulogic)
-[![Nomaryth](https://img.shields.io/badge/Nomaryth-Game%20Development-ff6b6b?style=for-the-badge&logo=unity&logoColor=white)](https://github.com/Nomaryth)
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Ruby-%23CC342D.svg?style=flat&logo=ruby&logoColor=white">
+  <img src="https://img.shields.io/badge/Frameworks-Node.js%20%7C%20Discord.js-green?logo=node.js&labelColor=202123">
+  <img src="https://img.shields.io/badge/Databases-SQLite%20%7C%20Others-blue?logo=database&labelColor=202123">
+  <img src="https://img.shields.io/badge/Organizations-2-important?logo=groups&labelColor=202123">
+  <img src="https://img.shields.io/badge/Brazil-PT--BR-brightgreen?logo=globe&labelColor=202123">
+</p>
 
 ---
 
-### **🌐 Core Organizations**
+### 👤 About Me
+
+Hi!  
+I’m a developer from Brazil passionate about code, tech communities, and creative indie projects.  
+I love building tools, bots, and automation using modern languages and frameworks for the web, Discord, and beyond.
+
+---
+
+### 🛠️ Languages & Frameworks
+
+- JavaScript / TypeScript / Ruby  
+- Node.js, Discord.js, Express  
+- SQLite, various SQL/NoSQL databases  
+- CLI scripting (PowerShell, Bash)  
+- Always exploring new tools & patterns
+
+---
+
+### 🏢 Organizations
 
 <table>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/Axulogic">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Axulogic&repo=Axulogic&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=ffffff&icon_color=00ffff" alt="Axulogic" />
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/Nomaryth">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Nomaryth&repo=Nomaryth&theme=dark&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff&icon_color=ff6b6b" alt="Nomaryth" />
-</a>
-</td>
-</tr>
+  <tr>
+    <td>
+      <b>Nomaryth</b>
+      <br>
+      <sub>Indie games & geek development. Community, innovation, experiments.</sub>
+      <br>
+      <a href="https://github.com/Nomaryth">
+        <img src="https://img.shields.io/badge/GitHub-Nomaryth-black?logo=github&labelColor=202123">
+      </a>
+    </td>
+    <td>
+      <b>Axulogic</b>
+      <br>
+      <sub>Core/mother org. Administrator and overseer of my tech universe and all sub-orgs.</sub>
+      <br>
+      <a href="https://github.com/Axulogic">
+        <img src="https://img.shields.io/badge/GitHub-Axulogic-black?logo=github&labelColor=202123">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ---
 
-### **🎯 Focus Areas**
+### 🚦 Focus & Values
 
-<div align="center">
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-Collaboration-00d4aa?style=flat-square&logo=github)](https://github.com/Axulogic)
-[![Game Development](https://img.shields.io/badge/Game%20Development-Godot%20%7C%20C%23-ff6b6b?style=flat-square&logo=godot)](https://github.com/Nomaryth)
-[![Web Development](https://img.shields.io/badge/Web%20Development-React%20%7C%20Next.js-61dafb?style=flat-square&logo=react)](https://github.com/Axulogic)
-[![Enterprise](https://img.shields.io/badge/Enterprise-Solutions-8b5cf6?style=flat-square&logo=serverless)](https://github.com/Axulogic)
-
-</div>
+- Creative coding & indie spirit  
+- Modular, maintainable, scalable systems  
+- Community-driven and open source when possible  
+- Automating for productivity and fun
 
 ---
 
-### **📊 Organization Stats**
+### 📬 Connect
 
-<div align="center">
-
-![Axulogic Stats](https://github-readme-stats.vercel.app/api?username=Axulogic&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=ffffff&icon_color=00ffff&hide=contribs,issues)
-
-![Nomaryth Stats](https://github-readme-stats.vercel.app/api?username=Nomaryth&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=ffffff&icon_color=ff6b6b&hide=contribs,issues)
-
-</div>
+<p align="left">
+  <a href="mailto:contact@nomaryth.uk"><img src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&labelColor=202123"></a>
+  <a href="https://agnes.nomaryth.uk"><img src="https://img.shields.io/badge/Developing-AgnesBot -blue?logo=chrome&labelColor=202123"></a>
+  <a href="https://discord.gg/j7qJX3uVgF"><img src="https://img.shields.io/badge/Discord-Server-7289DA?logo=discord&labelColor=202123"></a>
+</p>
 
 ---
 
-### **🔗 Quick Links**
-
-<div align="center">
-
-[![Website](https://img.shields.io/badge/Website-axulogic.uk-00ffff?style=for-the-badge&logo=globe)](https://axulogic.uk)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865f2?style=for-the-badge&logo=discord)](https://discord.gg/axulogic)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1da1f2?style=for-the-badge&logo=twitter)](https://twitter.com/Axulogic)
-
-</div>
-
----
-
-### **🌟 Featured Projects**
-
-<div align="center">
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Axulogic&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00ffff&text_color=ffffff&langs_count=6)](https://github.com/Axulogic)
-
-</div>
-
----
-
-<div align="center">
-
-**Building the future of open source collaboration**  
-*From indie games to enterprise solutions*
-
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Axulogic)
-[![Contributions](https://img.shields.io/badge/Contributions-Welcome-00d4aa?style=for-the-badge&logo=github)](https://github.com/Axulogic/Axulogic/blob/main/CONTRIBUTING.md)
-
-</div>
-</div>
+<p align="center">
+  <b>Always learning, always building.<br>
+  Collaboration and creativity fuel what I do!</b>
+</p>
