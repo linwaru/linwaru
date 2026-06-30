@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/216spLpV/linwaru-cropped.png" width="200" alt="Mascot" style="border-radius:50%;">
+  <img src="https://i.ibb.co/d4wST0nX/linwaru-cropped-1.png" width="200" alt="Mascot" style="border-radius:50%;">
 </p>
 
 <h1 align="center">linwaru</h1>
