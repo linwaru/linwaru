@@ -20,17 +20,31 @@
 
 Hi there! 👋 
 
-I'm a developer from Brazil passionate about code, tech communities, and creative indie projects. I love building tools, bots, and automation using modern languages and frameworks for the web, Discord, and beyond.
+I'm a developer from Brazil passionate about code, tech communities, and creative indie projects. I direct my energy into building tools, bots, and automation, operating mostly within my tech ecosystems and organizations (Nomaryth & Axulogic).
 
 ---
 
-## 🛠️ Languages & Frameworks
+## 🛠️ Tech Stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,ruby,nodejs,express,sqlite,postgres,regex,powershell,bash&theme=dark" alt="My Skills" />
+  </a>
+</p>
 
 * **Languages:** JavaScript, TypeScript, Ruby
-* **Backend & Tools:** Node.js, Express, CLI scripting (Bash, PowerShell)
-* **Discord Development:** Discord.js
-* **Databases:** SQLite & various SQL/NoSQL databases
-* *Always exploring new tools, architectures, and design patterns.*
+* **Backend & Automation:** Node.js, Express, CLI scripting (Bash, PowerShell)
+* **Discord Ecosystem:** Discord.js (Building rich bot experiences)
+* **Databases:** SQLite, PostgreSQL & various SQL/NoSQL systems
+
+---
+
+## 📊 GitHub Commit Streak
+
+<p align="center">
+  <!-- Este card lê os quadradinhos verdes do seu perfil, computando seus commits privados e de organizações perfeitamente -->
+  <img src="https://streak-stats.demolab.com/?user=linwaru&theme=transparent&hide_border=true" alt="linwaru's GitHub Streak" />
+</p>
 
 ---
 
