@@ -48,3 +48,5 @@ jobs:
         with:
           commit_message: "chore: update github metrics for organizations [skip ci]"
           file_pattern: "*.svg"
+
+      # 5. Iniciar Action
