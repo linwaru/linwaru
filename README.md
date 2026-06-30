@@ -39,12 +39,26 @@ I'm a developer from Brazil passionate about code, tech communities, and creativ
 
 ---
 
-## 📊 GitHub Commit Streak
+## 📊 Ecosystem Analytics
 
-<p align="center">
-  <!-- Este card lê os quadradinhos verdes do seu perfil, computando seus commits privados e de organizações perfeitamente -->
-  <img src="https://streak-stats.demolab.com/?user=linwaru&theme=transparent&hide_border=true" alt="linwaru's GitHub Streak" />
-</p>
+<table align="center" style="border: none; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td valign="top" align="center" style="border: none; width: 50%;">
+      <h4>🏛️ Nomaryth Core</h4>
+      <img src="github-metrics-nomaryth.svg" alt="Nomaryth Organization Metrics" />
+    </td>
+    <td valign="top" align="center" style="border: none; width: 50%;">
+      <h4>⚙️ Axulogic Core</h4>
+      <img src="github-metrics-axulogic.svg" alt="Axulogic Organization Metrics" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="middle" align="center" style="border: none; padding-top: 20px;">
+      <h4>🔥 Personal Coding Streak</h4>
+      <img src="https://streak-stats.demolab.com/?user=linwaru&theme=transparent&hide_border=true" alt="linwaru's GitHub Streak" />
+    </td>
+  </tr>
+</table>
 
 ---
 
