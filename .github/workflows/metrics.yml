@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Roda automaticamente a cada 24 horas
   schedule: [{cron: "0 0 * * *"}]
-  # Permite força a execução manualmente pela aba "Actions"
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -10,43 +8,31 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Faz o checkout do seu repositório para poder salvar os arquivos
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. Gera o gráfico da Nomaryth
       - name: Organização Nomaryth Metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Nomaryth
           base: header, activity, community, repositories, metadata
           filename: github-metrics-nomaryth.svg
-          output_action: none # Apenas gera o arquivo na máquina virtual, não commita ainda
+          output_action: commit
           plugin_languages: yes
           plugin_languages_sections: most-used
           config_timezone: America/Sao_Paulo
           theme: transparent
-
-      # 3. Gera o gráfico da Axulogic
+          
       - name: Organização Axulogic Metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Axulogic
           base: header, activity, community, repositories, metadata
           filename: github-metrics-axulogic.svg
-          output_action: none # Apenas gera o arquivo na máquina virtual, não commita ainda
+          output_action: commit
           plugin_languages: yes
           plugin_languages_sections: most-used
           config_timezone: America/Sao_Paulo
           theme: transparent
-
-      # 4. Commita e envia os dois SVGs atualizados de uma vez só
-      - name: Commit e Push dos Gráficos
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update github metrics for organizations [skip ci]"
-          file_pattern: "*.svg"
-
-      # 5. Iniciar Action
