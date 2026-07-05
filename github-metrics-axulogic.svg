@@ -117,11 +117,11 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="381.45504152608993" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="381.45504152608993" y="0" width="74.44055142475665" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="455.8955929508466" y="0" width="2.3308922427237104" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="458.2264851935703" y="0" width="1.665682752676492" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.8921679462468" y="0" width="0.1078320537531891" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="386.522435779566" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="386.522435779566" y="0" width="69.75855947417865" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="456.28099525374466" y="0" width="2.1120223237817592" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="458.39301757752645" y="0" width="1.5092757586597707" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.90229333618623" y="0" width="0.0977066638137872" height="8" fill="#384d54"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -157,7 +157,7 @@
                 </div>
             </section>
             <footer>
-                <span>Last updated 4 Jul 2026, 00:52:24 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 5 Jul 2026, 01:11:00 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
