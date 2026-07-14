@@ -97,11 +97,11 @@ I'm a developer from Brazil passionate about code, tech communities, and creativ
 ## 📬 Connect With Me
 
 <p align="center">
-  <a href="mailto:contact@nomaryth.uk">
+  <a href="mailto:axulogic@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&labelColor=202123" alt="Email">
   </a>
-  <a href="https://agnes.nomaryth.uk">
-    <img src="https://img.shields.io/badge/Developing-AgnesBot-blue?logo=chrome&labelColor=202123" alt="AgnesBot">
+  <a href="https://frontierhq.xyz">
+    <img src="https://img.shields.io/badge/Developing-FrontierHQ-blue?logo=chrome&labelColor=202123" alt="FrontierHQ">
   </a>
   <a href="https://discord.gg/j7qJX3uVgF">
     <img src="https://img.shields.io/badge/Discord-Server-7289DA?logo=discord&labelColor=202123" alt="Discord">
